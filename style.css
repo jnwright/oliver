@@ -1,0 +1,79 @@
+/*
+Theme Name: Oliver
+Author: Jasmine Wright
+Version: 0.0.1
+*/
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+background-color: mintcream;
+font-family: 'Open Sans', sans-serif;
+	margin-bottom: 60px;
+}
+
+h1 {
+color: lightskyblue;
+}
+
+.top {
+text-align: center;
+margin-top: 10%;
+}
+
+.main-img {
+border-radius: 50%;
+height: 18em;
+animation-name: fadeIn;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: .5s;
+}
+
+
+h3 {
+    padding-top: 1em;
+}
+
+i {
+    font-size: 50px;
+    color: lightskyblue;
+    padding-bottom: 1rem;
+}
+
+.info {
+    padding-top: 3em;
+    text-align: center;
+}
+
+.testimonial {
+    padding-bottom: 1em;
+	animation-name: fadeIn;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.testimonial {
+    padding-top: 2em;
+}
+
+.card {
+    border: 2px solid lightskyblue;
+}
+
+footer {
+	background: #fff;
+}
