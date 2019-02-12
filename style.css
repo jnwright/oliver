@@ -4,15 +4,10 @@ Author: Jasmine Wright
 Version: 0.0.1
 */
 
-html {
-	position: relative;
-	min-height: 100%;
-}
-
 body {
 background-color: mintcream;
 font-family: 'Open Sans', sans-serif;
-	margin-bottom: 60px;
+margin-bottom: 100px;
 }
 
 h1 {
@@ -28,52 +23,53 @@ margin-top: 10%;
 border-radius: 50%;
 height: 18em;
 animation-name: fadeIn;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in;
-	animation-duration: .5s;
+animation-iteration-count: 1;
+animation-timing-function: ease-in;
+animation-duration: .5s;
 }
 
 
 h3 {
-    padding-top: 1em;
+padding-top: 1em;
 }
 
 i {
-    font-size: 50px;
-    color: lightskyblue;
-    padding-bottom: 1rem;
+font-size: 50px;
+color: lightskyblue;
+padding-bottom: 1rem;
 }
 
 .info {
-    padding-top: 3em;
-    text-align: center;
+padding-top: 3em;
+text-align: center;
 }
 
 .testimonial {
-    padding-bottom: 1em;
-	animation-name: fadeIn;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in;
-	animation-duration: 1s;
+padding-bottom: 1em;
+animation-name: fadeIn;
+animation-iteration-count: 1;
+animation-timing-function: ease-in;
+animation-duration: 1s;
 }
 
 @keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
 }
 
 .testimonial {
-    padding-top: 2em;
+padding-top: 2em;
 }
 
 .card {
-    border: 2px solid lightskyblue;
+border: 2px solid lightskyblue;
+width: 100% !important;
 }
 
 footer {
-	background: #fff;
+background: #fff;
 }
