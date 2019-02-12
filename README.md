@@ -1,2 +1,2 @@
 # oliver
-wordpress landing page
+Simple Wordpress landing page!
